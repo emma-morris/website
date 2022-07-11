@@ -69,3 +69,9 @@ a:focus {
   border-bottom: 2px; /* width of the border, type, color */
   transition: 0.2s opacity;
 }
+.button:hover {
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
+}
+.button:active
+#F52F57
