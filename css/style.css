@@ -3,7 +3,6 @@ Colors used:
 Primary Color (Blue): #05676e;
 Secondary Color (Green): #489c79;
 */
-
 * {
   box-sizing: border-box;
 }
@@ -20,12 +19,13 @@ body {
   color: #1F1F1F;
 }
 
-header {
-}
+header {}
+
 selector {
-  margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
-    width: 1200px;
-    width: 80%;
+  margin: 0 auto;
+  /* No spacing to top and bottom and auto spacing to left and right */
+  width: 1200px;
+  width: 80%;
 }
 
 h1, h2, h3, h4 {
@@ -77,17 +77,10 @@ a:visited {
   /* visited link */
   color: #ff7f50;
 
-  .button.contact {
-    background-color: transparent;
-    color: #ff7f50;
-    text-transform: uppercase;
-    border: 2px solid #ff7f50;
-  }
-
-  .button.contact:hover {
-    background-color: #ff7f50;
-    color: #ffffff;
-  }
-
   /* Layout styling */
-  
+  .container {
+    padding: 0 15px;
+  }
+  .row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
