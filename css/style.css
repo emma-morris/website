@@ -88,7 +88,7 @@ a:active {
   border-radius: 3px;
   transition: 0.2s opacity;
 }
-.button:visited {#ffffff}
+.button:visited {colour: #ffffff}
 }
 .button.contact:hover {
   background-color: #ff7f50;
